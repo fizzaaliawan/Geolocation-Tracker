@@ -167,20 +167,13 @@ Open [http://localhost:8501](http://localhost:8501) in your browser.
 
 ---
 
-## Resilient Failover Mechanism
+## Provider Failover Architecture
 
-GeoTrack is engineered to prevent lookup failures through automatic multi-provider fallback:
+Automatic multi-provider fallback to ensure 99.9% lookup uptime:
 
 ```mermaid
-flowchart TD
-    A[Incoming Query: IP or Domain] --> B{In-Memory Cache Hit?}
-    B -- Yes --> C[Return Cached Result (TTL 1h)]
-    B -- No --> D[Resolve Domain DNS if applicable]
-    D --> E[Provider 1: ip-api.com]
-    E -- Success --> G[Cache & Return Result]
-    E -- Fail / Timeout --> F[Provider 2: ipapi.co]
-    F -- Success --> G
-    F -- Fail / Timeout --> H[Provider 3: ipinfo.io]
-    H -- Success --> G
-    H -- All Failed --> I[Return Standardized Fallback Error]
+flowchart LR
+    A[Query] --> B{Cache}
+    B -- Hit --> C[Cached Result]
+    B -- Miss --> D[ip-api.com] -. Failover .-> E[ipapi.co] -. Failover .-> F[ipinfo.io]
 ```
