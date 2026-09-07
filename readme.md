@@ -7,13 +7,7 @@
 ![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python)
 ![Leaflet](https://img.shields.io/badge/Leaflet-1.9-199900?style=for-the-badge&logo=leaflet)
 
-A high-performance, full-stack IP Geolocation and Network Telemetry intelligence platform. Search IP addresses or domain hostnames, visualize precise coordinates on interactive dynamic maps, inspect Autonomous System Numbers (ASN), track search history with real-time visual analytics, and export audit logs.
-
----
-
-## Overview
-
-GeoTrack provides instant geographical, network, and security intelligence for any IPv4, IPv6, or domain name (e.g., `google.com`, `1.1.1.1`). Built with a modern Next.js 14 App Router frontend, resilient multi-provider API failover routines, in-memory caching mechanisms, and complementary Python (FastAPI & Streamlit) backends.
+A high-performance, full-stack IP Geolocation and Network Telemetry intelligence platform. Search IP addresses or domain hostnames, visualize precise coordinates on interactive dynamic maps, inspect Autonomous System Numbers (ASN), track search history with real-time visual analytics, and export audit logs. GeoTrack provides instant geographical, network, and security intelligence for any IPv4, IPv6, or domain name (e.g., `google.com`, `1.1.1.1`). Built with a modern Next.js 14 App Router frontend, resilient multi-provider API failover routines, in-memory caching mechanisms, and complementary Python (FastAPI & Streamlit) backends.
 
 ---
 
