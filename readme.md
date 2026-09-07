@@ -184,19 +184,3 @@ flowchart TD
     H -- Success --> G
     H -- All Failed --> I[Return Standardized Fallback Error]
 ```
-
----
-
-## Tech Stack & Dependencies
-
-| Category | Technology |
-| :--- | :--- |
-| Frontend Framework | Next.js 14 (App Router) |
-| Language | TypeScript / Python 3.10+ |
-| Styling | Tailwind CSS & Tailwind Animate |
-| Map Rendering | Leaflet & React-Leaflet |
-| Data Visualization | Recharts |
-| Iconography | Lucide React |
-| Notifications | Sonner |
-| Theming | Next Themes |
-| Backend (Alternative) | FastAPI, Uvicorn, Streamlit |
