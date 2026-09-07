@@ -13,8 +13,6 @@
   A high-performance, full-stack IP Geolocation and Network Telemetry intelligence platform. Search IP addresses or domain hostnames, visualize precise coordinates on interactive dynamic maps, inspect Autonomous System Numbers (ASN), track search history with real-time visual analytics, and export audit logs.
 </p>
 
-[Overview](#overview) • [Features](#features) • [Quick Start](#quick-start) • [API Reference](#api-reference) • [Failover Mechanism](#resilient-failover-mechanism) • [Tech Stack](#tech-stack--dependencies)
-
 </div>
 
 ---
@@ -67,8 +65,8 @@ GeoTrack provides instant geographical, network, and security intelligence for a
 #### Installation & Setup
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-username/geotrack.git
-cd geotrack
+git clone https://github.com/fizzaaliawan/Geolocation-Tracker.git
+cd Geolocation-Tracker
 
 # 2. Install dependencies
 npm install
