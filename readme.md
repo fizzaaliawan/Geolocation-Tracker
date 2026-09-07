@@ -1,7 +1,5 @@
 # GeoTrack — Enterprise IP Geolocation & Network Intelligence Hub
 
-<div align="center">
-
 ![Next.js](https://img.shields.io/badge/Next.js-14.2-black?style=for-the-badge&logo=next.js)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?style=for-the-badge&logo=typescript)
 ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38B2AC?style=for-the-badge&logo=tailwind-css)
@@ -9,11 +7,7 @@
 ![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python)
 ![Leaflet](https://img.shields.io/badge/Leaflet-1.9-199900?style=for-the-badge&logo=leaflet)
 
-<p align="center">
-  A high-performance, full-stack IP Geolocation and Network Telemetry intelligence platform. Search IP addresses or domain hostnames, visualize precise coordinates on interactive dynamic maps, inspect Autonomous System Numbers (ASN), track search history with real-time visual analytics, and export audit logs.
-</p>
-
-</div>
+A high-performance, full-stack IP Geolocation and Network Telemetry intelligence platform. Search IP addresses or domain hostnames, visualize precise coordinates on interactive dynamic maps, inspect Autonomous System Numbers (ASN), track search history with real-time visual analytics, and export audit logs.
 
 ---
 
